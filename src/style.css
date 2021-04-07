@@ -1,0 +1,86 @@
+.c-sidebar-nav-link:hover {
+  background-color: rgba(255, 0, 0, 0) !important;
+}
+
+.c-sidebar-nav-item:hover {
+  background-color: none !important;
+}
+
+.c-sidebar-nav-dropdown-items a {
+  transition: all 0.35s ease-in;
+  color: rgba(255, 255, 255, 0.815) !important;
+}
+
+.c-sidebar-nav-dropdown-items {
+  overflow-x: hidden !important;
+}
+
+.c-sidebar-nav-dropdown-items a:hover {
+  transform: translateX(5px);
+  color: white !important;
+}
+
+.c-sidebar-nav-dropdown-toggle:hover {
+  background-color: rgba(245, 245, 245, 0) !important;
+}
+
+.c-sidebar-nav-dropdown-items .c-active {
+  background-color: #303c50 !important;
+  transform: translateX(5px);
+  color: white !important;
+}
+
+.c-sidebar-minimized .c-sidebar-nav-dropdown:hover {
+  background-color: #303c50 !important;
+}
+
+.c-sidebar-minimized .c-sidebar-nav-link:hover {
+  background-color: #303c50 !important;
+}
+
+.c-sidebar-minimized .c-sidebar-nav-dropdown .c-sidebar-nav-link:hover {
+  background-color: rgba(255, 0, 0, 0) !important;
+}
+
+.MuiTableCell-head {
+  background: #3c4b64d5 !important;
+}
+
+.MuiInput-underline:after {
+  border-bottom: 2px solid #303c50 !important;
+}
+
+.MuiCheckbox-colorSecondary.Mui-checked {
+  color: #303c50 !important;
+}
+
+.MuiIconButton-colorSecondary {
+  color: #303c50 !important;
+}
+
+.MuiTableBody-root a {
+  text-decoration: none;
+  color: black;
+}
+
+.MuiTableRow-root .MuiTableCell-root:nth-child(5) {
+  width: 50px !important;
+}
+
+.db-table {
+  width: 90%;
+}
+
+.MuiTableSortLabel-root.MuiTableSortLabel-active {
+  color: white !important;
+}
+
+.MuiTableSortLabel-root.MuiTableSortLabel-active.MuiTableSortLabel-root.MuiTableSortLabel-active
+  .MuiTableSortLabel-icon {
+  color: white !important;
+  opacity: 1;
+}
+
+.store-list-ecwid {
+  display: none;
+}
